@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image:url(hutan\ devato.jpg);
+    
+}
+
+ul{
+ list-style:none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a{
+ text-decoration:none;
+}
+
+/* section{
+ width:100%;
+ height:95vh;
+ position: relative;
+} */
+
+nav img {
+    float: left;
+    width: 100px;
+	height: 50px;
+    z-index: 0;
+    justify-content: left;
+    background-color: antiquewhite;
+    /* margin-left: 10rem; */
+    /* padding-left: 10rem; */
+
+}
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+ height:60px;
+ background-color:#FFFFFF;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ padding:0px 5%;
+ width: 90%;
+
+}
+
+nav ul{
+    display: flex;
+    margin-left: 300px;
+   }
+   
+   nav ul li a{
+    margin:30px;
+    padding-left: 10px;
+    font-family:myriad pro regular;
+    color:#505050;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight:700;
+   }
+
+   nav ul li a:hover {
+    background-color: #4CAF50;
+    padding: 5px;
+    transition: background-color 0.3s;
+   }
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: #333;
+    margin: 0;
+}
+
+.background-img {
+    background-image: url(hutan\ devato.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.projects button a {
+    color: #FFFFFF;
+}
+
+.projects button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 10px;
+    background-color: orange;
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+}
+
+.projects button:hover {
+    background-color: #b15e00;
+}
+
+.projects {
+    height: 350px;
+}
+
+section p a {
+    color: #0058d3;
+}
+
+section p a:hover {
+    color:#4CAF50 ;
+    border-radius: 0%;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.whatsapp {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.whatsapp a:hover {
+    color: #505050;
+}
+
+.instagram {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+/* .logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 3rem;
+    justify-content: left;
+    float: left;
+} */
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/**/
